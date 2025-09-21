@@ -188,6 +188,7 @@ def _handle_bridge_not_found(
         vol.Optional("cleanup"): vol.In(["delete", "abandon"]),
         vol.Optional("sensor"): list,
         vol.Optional("switch"): list,
+        vol.Optional("light"): list,
         vol.Optional("binary_sensor"): list,
         vol.Optional("button"): list,
         vol.Optional("climate"): list,

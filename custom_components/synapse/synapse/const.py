@@ -93,6 +93,7 @@ PLATFORMS: list[str] = [
     "switch",
     "text",
     "time",
+    "light",
     #
     # High priority wishlist - planned for future implementation
     #
@@ -135,6 +136,7 @@ ENTITY_DOMAINS: list[str] = [
     "time",
     "datetime",
     "scene",
+    "light",
 ]
 
 # Service domains that can be configured dynamically
