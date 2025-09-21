@@ -51,6 +51,7 @@ PLATFORMS: list[str] = [
     "switch",
     "text",
     "time",
+    "light",
     #
     # High priority wishlist -
     #
